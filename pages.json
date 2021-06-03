@@ -3,6 +3,8 @@
 		{
 			"path": "pages/index/index",
 			"style": {
+				"navigationBarTextStyle":"#ffffff",
+				"navigationBarBackgroundColor":"#D81E06",
 				"navigationBarTitleText": "首页"
 			}
 		}
@@ -40,7 +42,9 @@
 		"navigationBarBackgroundColor": "#F8F8F8",
 		"backgroundColor": "#F8F8F8",
 		"usingComponents":{
-			"van-search": "/wxcomponents/vant-weapp/search/index"
+			"van-search": "/wxcomponents/vant-weapp/search/index",
+			"van-cell": "/wxcomponents/vant-weapp/cell/index",
+			"van-cell-group": "/wxcomponents/vant-weapp/cell-group/index"
 		}
 	}
 }
