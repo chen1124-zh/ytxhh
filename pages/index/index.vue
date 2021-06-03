@@ -1,13 +1,20 @@
 <template>
 	<view class="content">
-		<image class="logo" src="/static/logo.png"></image>
+		<view class="">
+			<search></search>
+		</view>
+		<view class="">
+			
+		</view>
+		<!-- <image class="logo" src="/static/logo.png"></image>
 		<view class="text-area">
 			<text class="title">{{title}}</text>
-		</view>
+		</view> -->
 	</view>
 </template>
 
 <script>
+	import search  from "@/components/uni-search-bar/uni-search-bar.vue"
 	export default {
 		data() {
 			return {
@@ -17,14 +24,17 @@
 		onLoad() {
 
 		},
+		computed:{
+			search
+		},
 		methods: {
 
 		}
 	}
 </script>
-
+ 
 <style>
-	.content {
+	/* .content {
 		display: flex;
 		flex-direction: column;
 		align-items: center;
@@ -48,5 +58,5 @@
 	.title {
 		font-size: 36rpx;
 		color: #8f8f94;
-	}
+	} */
 </style>
