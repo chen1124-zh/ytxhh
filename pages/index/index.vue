@@ -1,7 +1,7 @@
 <template>
 	<view class="content">
 		<view class="">
-			<search></search>
+			<van-search shape="round" background="#D81E06" :value="search" placeholder="请输入搜索关键词" />
 		</view>
 		<view class="">
 			
@@ -14,21 +14,19 @@
 </template>
 
 <script>
-	import search  from "@/components/uni-search-bar/uni-search-bar.vue"
 	export default {
 		data() {
 			return {
-				title: 'Hello'
+				search: ''
 			}
 		},
 		onLoad() {
 
 		},
-		computed:{
-			search
-		},
 		methods: {
-
+			forceUpdate(){
+				console.log(123)
+			}
 		}
 	}
 </script>
