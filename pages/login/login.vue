@@ -1,7 +1,7 @@
 <template>
 	<view>
 		<view class="user">
-			<image :src="user.portrait||'../../static/default_head.jpg'" mode=""></image>
+			<!-- <image :src="user.portrait||'../../pagesA/static/default_head.jpg'" mode=""></image> -->
 			<view class="userName">
 				{{user.name||'未登录'}}
 			</view>
@@ -50,3 +50,4 @@
 		}
 	}
 </style>
+ 
